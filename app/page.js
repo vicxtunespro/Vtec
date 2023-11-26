@@ -1,9 +1,11 @@
 import Image from 'next/image'
+import Card from './components/card'
+import CardGroup from './components/cardGroup'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      vtec
+    <main className="min-h-screen px-16 md:px-32 lg:64">
+      <CardGroup/>
     </main>
   )
 }
