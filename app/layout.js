@@ -23,9 +23,9 @@ export default function RootLayout({ children }) {
             <div className='social-media'>
             <p className='contacts'>vtecsolutions256@gmail.com</p>
               <div class="icons">
-                <AiFillFacebook/>
-                <AiFillInstagram/>
-                <AiFillLinkedin/>
+                <AiFillFacebook className='icon'/>
+                <AiFillInstagram className='icon'/>
+                <AiFillLinkedin className='icon'/>
               </div>
             </div>
           </div>

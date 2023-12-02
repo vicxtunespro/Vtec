@@ -29,6 +29,26 @@
             .icons{
                 display: flex;
                 font-size: 2rem;
+                
+                
+                .icon::before {
+                    content: '';
+                    background: #7dd3fc;
+                    transition: .5s;
+                    transform: scale(.9);
+                    z-index: -1;
+                  }
+                  
+                  .icon:hover::before {
+                    transform: scale(1.1);
+                    box-shadow: 0 0 15px #7dd3fc;
+                  }
+                  
+                  .icon:hover {
+                    color: #7dd3fc;
+                    box-shadow: 0 0 5px #7dd3fc;
+                    text-shadow: 0 0 5px #7dd3fc;
+                  }
 
                 }
             }
@@ -78,11 +98,11 @@
             display: flex;
             align-items: center;
             padding: 0 1rem;
-            color: #431407;
+            color: $primary;
             
         }
         .page-link:hover{
-            background-color: orangered;
+            background: $secondary;
             color: white;
         }
 
