@@ -19,9 +19,9 @@ export default function RootLayout({ children }) {
         
         <div className='header'>
           <div className='header-contacts bg-primary'>
-            <div className='logo'>Andru</div>
+            <div className='logo'>Vtec Solutions</div>
             <div className='social-media'>
-            <p className='contacts'>Tel: 0787681472</p>
+            <p className='contacts'>vtecsolutions256@gmail.com</p>
               <div class="icons">
                 <AiFillFacebook/>
                 <AiFillInstagram/>
@@ -35,19 +35,19 @@ export default function RootLayout({ children }) {
             <AiOutlineMenu/>
             </div>
             <nav>
-              <Link href="#" className='page-link'>Home</Link>
+              <Link href="/" className='page-link'>Home</Link>
               {/* Drop-down */}
               <div class="dropdown">
-                <Link href="/services" className='page-link droper'>Services</Link>
+                <Link href="#" className='page-link droper'>Services</Link>
                   <div className='dropdown-content'>
-                  <Link href="#" className='page-link'>Constraction Services</Link>
-                  <Link href="#" className='page-link'>Plubing Services</Link>
-                  <Link href="#" className='page-link'>Electrical Services</Link>
+                  <Link href="#" className='page-link'>Web Services</Link>
+                  <Link href="#" className='page-link'>Graphics Services</Link>
+                  <Link href="#" className='page-link'>E-learning Services</Link>
                   </div>
               </div>
               <Link href="/projects" className='page-link'>Projects</Link>
               <Link href="/about" className='page-link'>About us</Link>
-              <Link href="/contacts" className='page-link'>Contact us</Link>
+              <Link href="/contact" className='page-link'>Contact us</Link>
             </nav>
           </div>
         </div>  
