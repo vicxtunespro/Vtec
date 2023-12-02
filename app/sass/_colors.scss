@@ -1,0 +1,11 @@
+//color utilities
+@each $key, $val in $theme-colors{
+    .bg-#{$key} {
+        background-color: $val
+    }
+    .text-#{$key}{
+        color: $val
+    }
+
+}
+
