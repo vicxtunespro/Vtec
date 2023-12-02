@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className="mobile-nav">
       <div className="navbar-brand">
         <Link href="/">
-            Anduru
+            Vtec Solutions
         </Link>
         <button className="navbar-burger" onClick={toggleNavbar}>
         <AiOutlineMenu/>
@@ -25,7 +25,7 @@ const Navbar = () => {
           <Link href="/" className='page-link'>
             Home
           </Link>
-          <Link href="./services" className='page-link'>
+          <Link href="#" className='page-link'>
             Services
           </Link>
           <Link href="./projects" className='page-link'>
