@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
                 <Link href="#" className='page-link droper'>Services</Link>
                   <div className='dropdown-content'>
                   <Link href="#" className='page-link'>Web Services</Link>
-                  <Link href="#" className='page-link'>Graphics Services</Link>
+                  <Link href="#" className='page-link'>Graphics Design</Link>
                   <Link href="#" className='page-link'>E-learning Services</Link>
                   </div>
               </div>
