@@ -9,14 +9,14 @@ export default function Card({image, title, description, id}) {
     lg:flex-col lg:w-80'>
         <div className='relative w-full md:w-1/2 lg:w-full h-60'>
             <Image
-            src="/reciption.jpg"
+            src={image}
             fill
             objectFit='cover'
             ></Image>
         </div>
             <div className="p-4 flex flex-col">
-                <span className="font-black text-2xl">Web Development</span>
-                <span className='mt-3 mb-3'>Wed designing and development for static, dynamic, ecomerce and marketing web sites</span>
+                <span className="font-black text-2xl">{title}</span>
+                <span className='mt-3 mb-3'>{description}</span>
                 <button className='px-4 py-3 bg-blue-300 md:w-1/2 lg:w-full'> Read more </button>
             </div>
     </div>
