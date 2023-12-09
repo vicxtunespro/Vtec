@@ -24,12 +24,12 @@
 body {
   color: rgb(var(--foreground-rgb));
   overflow-x: hidden;
-  background: #eff6ff;
-}
+  }
 .main{
   min-width: 100%;
   height: 100vh;
 }
 @import "./sass/mobileNav";
 @import "./sass/menu";
+@import "./sass/hero";
 @import "./sass/footer";
