@@ -4,6 +4,7 @@ import './globals.scss'
 import { AiFillFacebook, AiFillLinkedin, AiFillInstagram, AiOutlineMenu  } from 'react-icons/ai';
 import Link from 'next/link';
 import Navbar from './components/nav';
+import Image from 'next/image';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +20,9 @@ export default function RootLayout({ children }) {
         
         <div className='header'>
           <div className='header-contacts bg-primary'>
-            <div className='logo'>Vtec Solutions</div>
+            <div className='logo'>
+              <Image src='/logo.png' alt='logo' width={50} height={40}></Image>
+            </div>
             <div className='social-media'>
             <p className='contacts'>vtecsolutions256@gmail.com</p>
               <div class="icons">
