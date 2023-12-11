@@ -5,7 +5,7 @@ import { AiFillFacebook, AiFillLinkedin, AiFillInstagram, AiOutlineMenu  } from 
 
 export default function Footer() {
   return (
-    <footer className='w-screen flex flex-col gap-2 pl-16'>
+    <footer className='w-screen flex flex-col gap-2'>
       
       <div className="quick-info flex gap-4">
       <div className='text-white'>
@@ -55,7 +55,7 @@ export default function Footer() {
         <AiFillInstagram className='icon'/>
         <AiFillLinkedin className='icon'/>
       </div>
-      <div class="icons flex w-screen justify-center mb-3">
+      <div class="icons flex w-fill justify-center mb-3">
         <Image src='/logo.png' width={100} height={50}></Image>
       </div>
     </footer> 
