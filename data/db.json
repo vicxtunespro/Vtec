@@ -1,0 +1,55 @@
+{
+    "it_services": [
+      {
+        "id": 1,
+        "name": "Cloud Computing",
+        "description": "Provides on-demand computing resources over the internet, including storage, processing power, and applications."
+      },
+      {
+        "id": 2,
+        "name": "Network Security",
+        "description": "Ensures the security and integrity of an organization's network infrastructure, protecting against unauthorized access and cyber threats."
+      },
+      {
+        "id": 3,
+        "name": "Data Backup and Recovery",
+        "description": "Offers solutions for regularly backing up and recovering data to prevent data loss in case of system failures or disasters."
+      },
+      {
+        "id": 4,
+        "name": "Managed IT Support",
+        "description": "Outsources IT support services to a third-party provider to handle maintenance, troubleshooting, and technical assistance."
+      },
+      {
+        "id": 5,
+        "name": "Data Analytics",
+        "description": "Utilizes statistical analysis and computational techniques to interpret and analyze data, providing valuable insights for decision-making."
+      },
+      {
+        "id": 6,
+        "name": "Cybersecurity Consulting",
+        "description": "Provides expert advice and services to organizations on how to strengthen their security posture and protect against cyber threats."
+      },
+      {
+        "id": 7,
+        "name": "Mobile App Development",
+        "description": "Designs and develops applications for mobile devices, catering to various platforms such as iOS and Android."
+      },
+      {
+        "id": 8,
+        "name": "IT Infrastructure Management",
+        "description": "Manages and oversees an organization's entire IT infrastructure, including servers, networks, and hardware components."
+      },
+      {
+        "id": 9,
+        "name": "Business Continuity Planning",
+        "description": "Develops strategies and plans to ensure that essential business functions can continue during and after a disaster or disruption."
+      },
+      {
+        "id": 10,
+        "name": "Virtualization Services",
+        "description": "Enables the creation of virtual versions of IT infrastructure components, optimizing resource utilization and improving scalability."
+      }
+    ]
+  }
+  

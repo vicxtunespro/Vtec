@@ -34,6 +34,8 @@ export default function Footer() {
             <li>Digital Transformation Services</li>
         </ul>
         </div>
+      </div>
+      <div class="icons flex w-screen justify-center mb-3">
         <div className='text-white'>
           <h1 className='text-xl pb-2 font-semibold'>Customers</h1>
           <ul className='flex flex-wrap flex-col gap-2 font-light'>
@@ -49,8 +51,6 @@ export default function Footer() {
             <li>Digital Transformation Services</li>
         </ul>
         </div>
-      </div>
-      <div class="icons flex w-screen justify-center mb-3">
         <AiFillFacebook className='icon'/>
         <AiFillInstagram className='icon'/>
         <AiFillLinkedin className='icon'/>
