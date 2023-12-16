@@ -5,9 +5,7 @@ import React from 'react'
 export default function Card({image, title, description, id}) {
   return (
     <div className='
-    bg-white shadow-md rounded-md border overflow-hidden min-w-72 
-    md:w-screen md:flex md:flew-row 
-    lg:flex-col lg:min-w-80'>
+    bg-white shadow-md rounded-md border overflow-hidden w-72 flex-none'>
         <div className='relative w-full md:w-1/2 lg:w-full h-40'>
             <Image
             src={image}
