@@ -2,10 +2,16 @@ footer{
     background: $primary;
     position: relative;
     display: flex;
-    justify-content: center;
+    padding: 0 2rem;
+    padding-bottom: 4rem;
+
+
     
     .icon{
         color: white;
         font-size: 2rem;
     } 
+    .logo-section{
+        border-bottom: 1px solid white;
+    }
 }

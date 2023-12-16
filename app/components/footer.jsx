@@ -5,46 +5,75 @@ import { AiFillFacebook, AiFillLinkedin, AiFillInstagram, AiOutlineMenu  } from 
 
 export default function Footer() {
   return (
-    <footer className='w-screen grid grid-cols-1 md:grid-cols-4'>
-      <div class="logo-section flex flex-col justify-center items-start h-36">
+    <footer className='w-screen  text-white flex flex-col relative border-b-2 border-solid  border-white'>
+      <div class="logo-section flex justify-between w-full pl-4">
         <Image src='/logo.png' alt="logo" width={100} height={100}></Image>
-        <span className='flex text-white'>
+        <span className='flex text-white text-4xl justify-center items-center'>
           <AiFillFacebook/>
           <AiFillInstagram/>
           <AiFillLinkedin/>
         </span>
-        <span>Location</span>
       </div>
-      <div className='bg-red-300 pl-4'>
-        <p className='font-semibold text-2xl'>Company</p>
-        <ul>
-          <li className='font- text-sm'>Home</li>
-          <li className='font- text-sm'>About</li>
-          <li className='font- text-sm'>Lorem ipsum dolor</li>
-          <li className='font- text-sm'>Lorem ipsum dolor</li>
-          <li className='font- text-sm'>Lorem ipsum dolor</li>
-          <li className='font- text-sm'>Lorem ipsum dolor</li>
-          <li className='font- text-sm'>Lorem ipsum dolor</li>
-        </ul>
-      </div>
-      <div className='bg-red-700 pl-4'>
-      <p className='text-2xl font-semi-bold'>Services</p>
-      <ul>
-          <li className='py-1'>Lorem ipsum dolor</li>
-          <li className='py-1'>Lorem ipsum dolor</li>
-          <li className='py-1'>Lorem ipsum dolor</li>
-          <li className='py-1'>Lorem ipsum dolor</li>
-          <li className='py-1'>Lorem ipsum dolor</li>
-          <li className='py-1'>Lorem ipsum dolor</li>
-          <li className='py-1'>Lorem ipsum dolor</li>
-        </ul>
-      </div>
-      <div className='bg-red-600'>
-        <p className='text-xl font-semi-bold'>Get in touch</p>
-        <form className='flex gap-1 flex-col'>
-          <input type="text" placeholder='Email'/>
-          <textarea placeholder='enter message'></textarea>
-        </form>
+      <div className="wrapper flex justify-between">
+        <div className="info flex justify-evenly flex-wrap w-3/4">
+          <div className='p-4'>
+            <p className='font-semibold text-2xl'>Company</p>
+            <ul>
+              <li className='font- text-sm hover:text-md'>Home</li>
+              <li className='font- text-sm'>About</li>
+              <li className='font- text-sm'>Lorem ipsum dolor</li>
+              <li className='font- text-sm'>Lorem ipsum dolor</li>
+              <li className='font- text-sm'>Lorem ipsum dolor</li>
+              <li className='font- text-sm'>Lorem ipsum dolor</li>
+              <li className='font- text-sm'>Lorem ipsum dolor</li>
+            </ul>
+          </div>
+          <div className='p-4'>
+            <p className='font-semibold text-2xl'>Company</p>
+            <ul>
+              <li className='font- text-sm hover:text-md'>Home</li>
+              <li className='font- text-sm'>About</li>
+              <li className='font- text-sm'>Lorem ipsum dolor</li>
+              <li className='font- text-sm'>Lorem ipsum dolor</li>
+              <li className='font- text-sm'>Lorem ipsum dolor</li>
+              <li className='font- text-sm'>Lorem ipsum dolor</li>
+              <li className='font- text-sm'>Lorem ipsum dolor</li>
+            </ul>
+          </div>
+          <div className='p-4'>
+            <p className='font-semibold text-2xl'>Company</p>
+            <ul>
+              <li className='font- text-sm hover:text-md'>Home</li>
+              <li className='font- text-sm'>About</li>
+              <li className='font- text-sm'>Lorem ipsum dolor</li>
+              <li className='font- text-sm'>Lorem ipsum dolor</li>
+              <li className='font- text-sm'>Lorem ipsum dolor</li>
+              <li className='font- text-sm'>Lorem ipsum dolor</li>
+              <li className='font- text-sm'>Lorem ipsum dolor</li>
+            </ul>
+          </div>
+          <div className='p-4'>
+            <p className='font-semibold text-2xl'>Company</p>
+            <ul>
+              <li className='font- text-sm hover:text-md'>Home</li>
+              <li className='font- text-sm'>About</li>
+              <li className='font- text-sm'>Lorem ipsum dolor</li>
+              <li className='font- text-sm'>Lorem ipsum dolor</li>
+              <li className='font- text-sm'>Lorem ipsum dolor</li>
+              <li className='font- text-sm'>Lorem ipsum dolor</li>
+              <li className='font- text-sm'>Lorem ipsum dolor</li>
+            </ul>
+          </div>
+          
+        </div>
+        <div className= 'p-4 form w-1/4'>
+          <p className='text-xl font-semi-bold'>Get in touch</p>
+          <form className='flex gap-1 flex-col'>
+            <input type="text" placeholder='Email'/>
+            <textarea placeholder='Enter your message here'></textarea>
+            <button className="bg-orange-300 hover:bg-orange-500" >Send a Message</button>
+          </form>
+        </div>
       </div>
       
     </footer> 
