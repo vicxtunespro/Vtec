@@ -5,59 +5,48 @@ import { AiFillFacebook, AiFillLinkedin, AiFillInstagram, AiOutlineMenu  } from 
 
 export default function Footer() {
   return (
-    <footer className='w-screen flex flex-col gap-2'>
+    <footer className='w-screen grid grid-cols-1 md:grid-cols-4'>
+      <div class="logo-section flex flex-col justify-center items-start h-36">
+        <Image src='/logo.png' alt="logo" width={100} height={100}></Image>
+        <span className='flex text-white'>
+          <AiFillFacebook/>
+          <AiFillInstagram/>
+          <AiFillLinkedin/>
+        </span>
+        <span>Location</span>
+      </div>
+      <div className='bg-red-300 pl-4'>
+        <p className='font-semibold text-2xl'>Company</p>
+        <ul>
+          <li className='font- text-sm'>Home</li>
+          <li className='font- text-sm'>About</li>
+          <li className='font- text-sm'>Lorem ipsum dolor</li>
+          <li className='font- text-sm'>Lorem ipsum dolor</li>
+          <li className='font- text-sm'>Lorem ipsum dolor</li>
+          <li className='font- text-sm'>Lorem ipsum dolor</li>
+          <li className='font- text-sm'>Lorem ipsum dolor</li>
+        </ul>
+      </div>
+      <div className='bg-red-700 pl-4'>
+      <p className='text-2xl font-semi-bold'>Services</p>
+      <ul>
+          <li className='py-1'>Lorem ipsum dolor</li>
+          <li className='py-1'>Lorem ipsum dolor</li>
+          <li className='py-1'>Lorem ipsum dolor</li>
+          <li className='py-1'>Lorem ipsum dolor</li>
+          <li className='py-1'>Lorem ipsum dolor</li>
+          <li className='py-1'>Lorem ipsum dolor</li>
+          <li className='py-1'>Lorem ipsum dolor</li>
+        </ul>
+      </div>
+      <div className='bg-red-600'>
+        <p className='text-xl font-semi-bold'>Get in touch</p>
+        <form className='flex gap-1 flex-col'>
+          <input type="text" placeholder='Email'/>
+          <textarea placeholder='enter message'></textarea>
+        </form>
+      </div>
       
-      <div className="quick-info flex gap-4">
-      <div className='text-white'>
-          <h1 className='text-xl pb-2 font-semibold'>Company</h1>
-          <div className='flex flex-col gap-3 font-light'>
-            <Link href='/'>Home</Link>
-            <Link href='/about'>About us</Link>
-            <Link href='/services'>E-learning</Link>
-            <Link href='/ebook'>E-books</Link>
-            <Link href='/contact'>Contact us</Link>
-            <Link href='/gallery'>Gallery</Link>
-        </div>
-        </div>
-        <div className='text-white'>
-          <h1 className='text-xl pb-2 font-semibold'>Services</h1>
-          <ul className='flex flex-wrap flex-col gap-2 font-light'>
-            <li>Custom Software Development</li>
-            <li>Web Application Development</li>
-            <li>Mobile App Development</li>
-            <li>Cloud Computing Solutions</li>
-            <li>IT Consulting Services</li>
-            <li>Cybersecurity Solutions</li>
-            <li>Database Management</li>
-            <li>Network Design and Implementation</li>
-            <li>IT Support and Maintenance</li>
-            <li>Digital Transformation Services</li>
-        </ul>
-        </div>
-      </div>
-      <div class="icons flex w-screen justify-center mb-3">
-        <div className='text-white'>
-          <h1 className='text-xl pb-2 font-semibold'>Customers</h1>
-          <ul className='flex flex-wrap flex-col gap-2 font-light'>
-            <li>Custom Software Development</li>
-            <li>Web Application Development</li>
-            <li>Mobile App Development</li>
-            <li>Cloud Computing Solutions</li>
-            <li>IT Consulting Services</li>
-            <li>Cybersecurity Solutions</li>
-            <li>Database Management</li>
-            <li>Network Design and Implementation</li>
-            <li>IT Support and Maintenance</li>
-            <li>Digital Transformation Services</li>
-        </ul>
-        </div>
-        <AiFillFacebook className='icon'/>
-        <AiFillInstagram className='icon'/>
-        <AiFillLinkedin className='icon'/>
-      </div>
-      <div class="icons flex w-fill justify-center mb-3">
-        <Image src='/logo.png' width={100} height={50}></Image>
-      </div>
     </footer> 
   )
 }
