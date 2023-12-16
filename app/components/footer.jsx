@@ -6,7 +6,7 @@ import { AiFillFacebook, AiFillLinkedin, AiFillInstagram, AiOutlineMenu  } from 
 export default function Footer() {
   return (
     <footer className='w-screen  text-white flex flex-col relative border-b-2 border-solid  border-white'>
-      <div class="logo-section flex justify-between w-full pl-4">
+      <div class="logo-section flex justify-between w-full ">
         <Image src='/logo.png' alt="logo" width={100} height={100}></Image>
         <span className='flex text-white text-4xl justify-center items-center'>
           <AiFillFacebook/>
@@ -14,8 +14,8 @@ export default function Footer() {
           <AiFillLinkedin/>
         </span>
       </div>
-      <div className="wrapper flex justify-between">
-        <div className="info flex justify-evenly flex-wrap w-3/4">
+      <div className="wrapper flex justify-between flex-col lg:flex-row">
+        <div className="info flex w-full lg:justify-evenly lg:flex-row flex-wrap lg:w-3/4">
           <div className='p-4'>
             <p className='font-semibold text-2xl'>Company</p>
             <ul>
@@ -66,7 +66,7 @@ export default function Footer() {
           </div>
           
         </div>
-        <div className= 'p-4 form w-1/4'>
+        <div className= 'p-4 form w-full lg:w-1/4'>
           <p className='text-xl font-semi-bold'>Get in touch</p>
           <form className='flex gap-1 flex-col'>
             <input type="text" placeholder='Email'/>
