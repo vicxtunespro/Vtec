@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @import "./sass/variables";
 @import "./sass/colors";
 :root {
@@ -28,6 +29,12 @@ body {
 .main{
   min-width: 100%;
   height: 100vh;
+}
+.swiper {
+  width: 100%;
+}
+.swiper-slide {
+  height: fit-content;
 }
 @import "./sass/mobileNav";
 @import "./sass/menu";
