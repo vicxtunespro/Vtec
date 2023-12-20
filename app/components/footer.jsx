@@ -19,49 +19,46 @@ export default function Footer() {
           <div className='p-4'>
             <p className='font-semibold text-2xl'>Company</p>
             <ul>
-              <li className='font- text-sm hover:text-md'>Home</li>
-              <li className='font- text-sm'>About</li>
-              <li className='font- text-sm'>Lorem ipsum dolor</li>
-              <li className='font- text-sm'>Lorem ipsum dolor</li>
-              <li className='font- text-sm'>Lorem ipsum dolor</li>
-              <li className='font- text-sm'>Lorem ipsum dolor</li>
-              <li className='font- text-sm'>Lorem ipsum dolor</li>
+              <li><Link href="/" className='font- text-sm hover:text-md'>Home</Link></li>
+              <li><Link href="/services" className='font- text-sm'>Services</Link></li>
+              <li><Link href="/projects" className='font- text-sm'>Projects</Link></li>
+              <li><Link href="/projects" className='font- text-sm'>Projects</Link></li>
+              <li><Link href="/contact" className='font- text-sm'>Contact us</Link></li>
             </ul>
           </div>
           <div className='p-4'>
-            <p className='font-semibold text-2xl'>Company</p>
+            <p className='font-semibold text-2xl'>Services</p>
             <ul>
-              <li className='font- text-sm hover:text-md'>Home</li>
-              <li className='font- text-sm'>About</li>
-              <li className='font- text-sm'>Lorem ipsum dolor</li>
-              <li className='font- text-sm'>Lorem ipsum dolor</li>
-              <li className='font- text-sm'>Lorem ipsum dolor</li>
-              <li className='font- text-sm'>Lorem ipsum dolor</li>
-              <li className='font- text-sm'>Lorem ipsum dolor</li>
+              <li className='font- text-sm'>Graphic Design</li>
+              <li className='font- text-sm'>Web development</li>
+              <li className='font- text-sm'>Content management</li>
+              <li className='font- text-sm'>Data Entery</li>
+              <li className='font- text-sm'>Motion Graphics design</li>
+              <li className='font- text-sm'>Online Tutoring</li>
+              <li className='font- text-sm'>Programming</li>
             </ul>
           </div>
           <div className='p-4'>
-            <p className='font-semibold text-2xl'>Company</p>
+            <p className='font-semibold text-2xl'>Online Courses</p>
             <ul>
-              <li className='font- text-sm hover:text-md'>Home</li>
-              <li className='font- text-sm'>About</li>
-              <li className='font- text-sm'>Lorem ipsum dolor</li>
-              <li className='font- text-sm'>Lorem ipsum dolor</li>
-              <li className='font- text-sm'>Lorem ipsum dolor</li>
-              <li className='font- text-sm'>Lorem ipsum dolor</li>
-              <li className='font- text-sm'>Lorem ipsum dolor</li>
+              <li className='font- text-sm hover:text-md'>HTML Mastery class</li>
+              <li className='font- text-sm hover:text-md'>CSS Mastery class</li>
+              <li className='font- text-sm'>Javascript Development</li>
+              <li className='font- text-sm'>MERN Stack development</li>
+              <li className='font- text-sm'>Graphic Design</li>
+              <li className='font- text-sm'>Principles of programming</li>
+              <li className='font- text-sm'>Microsoft office suite</li>
+              <li className='font- text-sm'>G-suite</li>
             </ul>
           </div>
           <div className='p-4'>
-            <p className='font-semibold text-2xl'>Company</p>
+            <p className='font-semibold text-2xl'>Location</p>
             <ul>
               <li className='font- text-sm hover:text-md'>Home</li>
-              <li className='font- text-sm'>About</li>
-              <li className='font- text-sm'>Lorem ipsum dolor</li>
-              <li className='font- text-sm'>Lorem ipsum dolor</li>
-              <li className='font- text-sm'>Lorem ipsum dolor</li>
-              <li className='font- text-sm'>Lorem ipsum dolor</li>
-              <li className='font- text-sm'>Lorem ipsum dolor</li>
+              <li className='font- text-sm'>Kitem</li>
+              <li className='font- text-sm'>Kampala - Masaka Road</li>
+              <li className='font- text-sm'>+256 758 019 072</li>
+              <li className='font- text-sm'>+256 756 727 756</li>
             </ul>
           </div>
           

@@ -5,18 +5,19 @@ import React from 'react'
 export default function Card({image, title, description, id}) {
   return (
     <div className='
-    bg-white shadow-md rounded-md border overflow-hidden w-72 flex-none'>
-        <div className='relative w-full md:w-1/2 lg:w-full h-40'>
+    bg-white shadow-md rounded-md border overflow-hidden min-w-72 flex-none'>
+        <div className='relative w-full lg:w-full h-40'>
             <Image
             src={image}
+            alt='service photo'
             fill
             objectFit='cover'
             ></Image>
         </div>
             <div className="p-4 flex flex-col relative">
                 <span className="font-black text-1xl text-ellipsis overflow-hidden whitespace-nowrap">{title}</span>
-                <span className='mt-3 mb-3 text-ellipsis line-clamp-2 overflow-hidden'>{description}</span>
-                <button className='px-4 py-3 bg-blue-300 bottom-1 md:w-1/2 lg:w-full'> Read more </button>
+                <span className='mt-3 mb-3 text-ellipsis line-clamp-1 overflow-hidden'>{description}</span>
+                <button className='px-4 py-3 bg-blue-300 bottom-1 lg:w-full'> Read more </button>
             </div>
     </div>
   )

@@ -5,16 +5,27 @@ import services from './webData/services'
 import { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
 
 
 export default function CardGroup() {
   return (
     <div className="card-display">
-      <p className="text-xl font-bold ">Services</p>
+      <p className="text-2xl font-bold mt-6 mb-6 w-full text-center ">Services</p>
       <Swiper 
       watchSlidesProgress={true} 
       slidesPerView={4}
+      spaceBetween={30}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
+      pagination={{
+        clickable: true,
+      }}
+      navigation={true}
+      modules={[Autoplay, Pagination, Navigation]}
       breakpoints={{
         0: {
           slidesPerView: 1,
@@ -29,7 +40,7 @@ export default function CardGroup() {
           slidesPerView: 4,
         },
       }} 
-      className="mySwiper">
+      className="mySwiper flex justify-center items-center">
           {services.map((service) => (
             <SwiperSlide>
               <Card
