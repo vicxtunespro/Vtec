@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'next/link';
-import Navbar from './components/nav';
 import Image from 'next/image';
 import { AiFillFacebook, AiFillLinkedin, AiFillInstagram, AiOutlineMenu  } from 'react-icons/ai';
+import Navbar from './nav';
 
 
 export default function Menu() {
