@@ -1,7 +1,7 @@
 "use client"
 import { useState } from 'react';
 import Link from 'next/link';
-import { AiOutlineMenu } from 'react-icons/ai';
+import { AiFillFacebook, AiFillLinkedin, AiFillInstagram, AiOutlineMenu  } from 'react-icons/ai';
 
 const Navbar = () => {
  const [isOpen, setIsOpen] = useState(false);
