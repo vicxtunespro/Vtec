@@ -13,8 +13,8 @@ const Navbar = () => {
  return (
     <nav className="mobile-nav">
       <div className="navbar-brand">
-        <Link href="/">
-            Vtec Solutions
+        <Link href="/" class="font-black text-center flex items-center tracking-wide">
+            Vtec
         </Link>
         <button className="navbar-burger" onClick={toggleNavbar}>
         <AiOutlineMenu/>
@@ -25,7 +25,7 @@ const Navbar = () => {
           <Link href="/" className='page-link'>
             Home
           </Link>
-          <Link href="#" className='page-link'>
+          <Link href="/services" className='page-link'>
             Services
           </Link>
           <Link href="./projects" className='page-link'>
@@ -33,6 +33,11 @@ const Navbar = () => {
           </Link>
           <Link href="./about" className='page-link'>About us</Link>
           <Link href="./contact" className='page-link'>Contact us</Link>
+          <div class="icons">
+                <AiFillFacebook className='icon'/>
+                <AiFillInstagram className='icon'/>
+                <AiFillLinkedin className='icon'/>
+          </div>
         </div>
       </div>
     </nav>

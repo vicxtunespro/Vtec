@@ -1,6 +1,10 @@
 @media(max-width: 610px){
     .mobile-nav{
         width: 100%;
+        position: fixed;
+        background: white;
+        z-index: 3;
+        top: 0;
         display: flex;
         flex-direction: column;
     
@@ -13,36 +17,46 @@
         }
         
         .navbar-menu{
-            background: $last;
+            background-color: $last;
             display: none;
     
             .navbar-start{
                 display: none;
+                opacity: 0;
+                transition: opacity 0.5s ease;
             }
+        }
+        .button-active{
+            background-color: black;
         }
     
         .is-active{
             display:block;
+            
     
             .navbar-start{
                 display: flex;
                 z-index: 1;
                 position: absolute;
+                left: 50%;
                 flex-direction: column;
                 width: 100%;
-                max-height: 50vh;
+                min-height: 100vh;
                 background-color: $last;
+                opacity: 1;
                 box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
         
                 .page-link{
                     color:$primary;
                     padding: 12px 14px;
+                    transition: all 0.3s  ease;
         
                     
                 }
                 .page-link:hover{
                     background-color: $primary;
                     color: $white;
+                    padding: 12px 16px
                 }
             }
         }

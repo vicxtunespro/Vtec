@@ -30,11 +30,11 @@ export default function Menu() {
               <Link href="/" className='page-link'>Home</Link>
               {/* Drop-down */}
               <div class="dropdown">
-                <Link href="#" className='page-link droper'>Services</Link>
+                <Link href="/services" className='page-link droper'>Services</Link>
                   <div className='dropdown-content'>
-                  <Link href="#" className='page-link'>Web Services</Link>
-                  <Link href="#" className='page-link'>Graphics Design</Link>
-                  <Link href="#" className='page-link'>E-learning Services</Link>
+                  <Link href="/services/web" className='page-link'>Web Services</Link>
+                  <Link href="/services/graphics" className='page-link'>Graphics Design</Link>
+                  <Link href="/services/e-learning" className='page-link'>E-learning Services</Link>
                   </div>
               </div>
               <Link href="/projects" className='page-link'>Projects</Link>
