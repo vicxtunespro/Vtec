@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react'
-import { AiFillFacebook, AiFillLinkedin, AiFillInstagram, AiOutlineMenu  } from 'react-icons/ai';
+import { AiFillFacebook, AiFillLinkedin, AiFillInstagram} from 'react-icons/ai';
 
 export default function Footer() {
   return (
     <footer className='w-screen  text-white flex flex-col relative border-b-2 border-solid  border-white'>
-      <div class="logo-section flex justify-between w-full ">
+      <div className="logo-section flex justify-between w-full ">
         <Image src='/logo.png' alt="logo" width={100} height={100}></Image>
         <span className='flex text-white text-4xl justify-center items-center'>
           <AiFillFacebook/>

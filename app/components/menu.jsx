@@ -14,7 +14,7 @@ export default function Menu() {
             </div>
             <div className='social-media'>
             <p className='contacts'>vtecsolutions256@gmail.com</p>
-              <div class="icons">
+              <div className="icons">
                 <AiFillFacebook className='icon'/>
                 <AiFillInstagram className='icon'/>
                 <AiFillLinkedin className='icon'/>
@@ -29,7 +29,7 @@ export default function Menu() {
             <nav>
               <Link href="/" className='page-link'>Home</Link>
               {/* Drop-down */}
-              <div class="dropdown">
+              <div className="dropdown">
                 <Link href="/services" className='page-link droper'>Services</Link>
                   <div className='dropdown-content'>
                   <Link href="/services/web" className='page-link'>Web Services</Link>

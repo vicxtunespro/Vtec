@@ -7,7 +7,7 @@ import Hero from './components/hero'
 
 export default function Home() {
   return (
-      <div class="wrapper">
+      <div className="wrapper">
         <Hero/>
         <main className="min-h-screen px-8 md:px-16 lg:32">
           <CardGroup/>
