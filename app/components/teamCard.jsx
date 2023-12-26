@@ -22,5 +22,3 @@ function TeamMember({name, title, description, image}) {
 }
 
 export default TeamMember
-
-git pull --tags origin Website --no-rebase
