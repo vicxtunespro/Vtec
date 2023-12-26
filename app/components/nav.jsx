@@ -1,7 +1,7 @@
 "use client"
 import { useState } from 'react';
 import Link from 'next/link';
-import { AiOutlineMenu } from 'react-icons/ai';
+import { AiFillFacebook, AiFillLinkedin, AiFillInstagram, AiOutlineMenu  } from 'react-icons/ai';
 
 const Navbar = () => {
  const [isOpen, setIsOpen] = useState(false);
@@ -13,10 +13,10 @@ const Navbar = () => {
  return (
     <nav className="mobile-nav">
       <div className="navbar-brand">
-        <Link href="/">
-            Vtec Solutions
+        <Link href="/" className="font-black text-center flex items-center tracking-wide dark:text-black">
+            Vtec
         </Link>
-        <button className="navbar-burger" onClick={toggleNavbar}>
+        <button className="navbar-burger dark:text-black" onClick={toggleNavbar}>
         <AiOutlineMenu/>
         </button>
       </div>
@@ -25,7 +25,7 @@ const Navbar = () => {
           <Link href="/" className='page-link'>
             Home
           </Link>
-          <Link href="#" className='page-link'>
+          <Link href="/services" className='page-link'>
             Services
           </Link>
           <Link href="./projects" className='page-link'>
@@ -33,6 +33,11 @@ const Navbar = () => {
           </Link>
           <Link href="./about" className='page-link'>About us</Link>
           <Link href="./contact" className='page-link'>Contact us</Link>
+          <div className="icons">
+                <AiFillFacebook className='icon'/>
+                <AiFillInstagram className='icon'/>
+                <AiFillLinkedin className='icon'/>
+          </div>
         </div>
       </div>
     </nav>
