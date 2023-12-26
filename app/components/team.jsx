@@ -13,7 +13,24 @@ function Team(){
     return(
         <div className='team'>
             <h1 className='heading'>OUR TEAM</h1>
-            <Swiper watchSlidesProgress={true} slidesPerView={3} className="mySwiper team-group">
+            <Swiper watchSlidesProgress={true}
+            breakpoints={{
+                0: {
+                  slidesPerView: 1,
+                },
+                640: {
+                  slidesPerView: 2,
+                },
+                768: {
+                  slidesPerView: 3,
+                },
+                1024: {
+                  slidesPerView: 4,
+                },
+              }}
+            slidesPerView={3}
+            spaceBetween={2}
+            className="mySwiper team-group">
                 {
                     teamMembers.map((member)=>(
                         <SwiperSlide>
