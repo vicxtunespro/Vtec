@@ -20,4 +20,3 @@ export default function Home() {
       </div>
   )
 }
-/workspace/Vtec/app/page.js
