@@ -12,7 +12,7 @@ function TeamMember({name, title, description, image}) {
             <FaWhatsapp />
             </span>
         </span>
-        <span className='p-10 shadow-sm'>
+        <span className='flex flex-col justify-center items-center'>
             <p className="team-member-name text-xl font-bold">{name}</p>
             <p className="team-title">{title}</p>
             <p className='team-title-description text-sm font-light'>{description}</p>
