@@ -11,7 +11,7 @@ import TeamMember from './teamCard';
 
 function Team(){
     return(
-        <div className='team'>
+        <div className='team mt-3'>
             <h1 className='heading'>OUR TEAM</h1>
             <Swiper watchSlidesProgress={true}
             breakpoints={{
@@ -29,7 +29,7 @@ function Team(){
                 },
               }}
             slidesPerView={3}
-            spaceBetween={2}
+            spaceBetween={30}
             className="mySwiper team-group">
                 {
                     teamMembers.map((member)=>(
