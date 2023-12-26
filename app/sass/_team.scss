@@ -1,0 +1,75 @@
+.team{
+    background-color: yellow;
+    
+
+    .heading{
+        background-color: white;
+        letter-spacing: 2px;
+
+        &:after{
+            content: '';
+            background: black;
+            display: block;
+            height: 3px;
+            width: 150px;
+            margin: 10px auto;
+        }
+    }
+    
+
+    .team-group{
+        display: flex;
+        gap: 1rem;
+        padding: 1rem;
+        justify-content: center;
+        overflow-x: scroll;
+
+        .team-member{
+            background-color: white;
+            min-width: 250px;
+            position: relative;
+            overflow: hidden;
+
+            .team-member-photo{
+                object-fit: cover;
+                display: block;
+                opacity: 1;
+                width: 100%;
+                height: 70%;
+                position: relative;
+
+                &:after{
+                    content: '';
+                    opacity: 0;
+                    position: absolute;
+                    right: 0;
+                    left: 0;
+                    top: 0;
+                    bottom: 0;
+                    transition: opacity 0.3s ease;
+                    background-color: rgba(0, 128, 0, 0.356);
+                }
+                &:hover:after{
+                    opacity: 1;
+                }
+
+                .media-handles{
+                    position: absolute;
+                    left: 40%;
+                    top: 90%;
+                    display: flex;
+                    gap: 1rem;
+                    z-index: 1;
+                    opacity: 0;
+                    transform: translateX(-50);
+                    transition: opacity 0.3s ease;
+                }
+            }
+        }
+        &:hover{
+            .media-handles{
+                opacity: 1;
+            }
+        }
+    }
+}

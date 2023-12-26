@@ -36,8 +36,12 @@ body {
 .swiper-slide {
   height: fit-content;
 }
+.team-member-photo:hover .media-handles{
+  opacity: 1 !important;
+}
 @import "./sass/mobileNav";
 @import "./sass/menu";
 @import "./sass/hero";
+@import "./sass/team";
 @import "./sass/quickAccess";
 @import "./sass/footer";
