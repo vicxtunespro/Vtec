@@ -13,9 +13,9 @@ function TeamMember({name, title, description, image}) {
             </span>
         </span>
         <span className='flex flex-col justify-center items-center'>
-            <p className="team-member-name text-xl font-bold">{name}</p>
-            <p className="team-title">{title}</p>
-            <p className='team-title-description text-sm font-light'>{description}</p>
+            <p className="team-member-name text-xl font-bold text-center">{name}</p>
+            <p className="team-title text-center">{title}</p>
+            <p className='team-title-description text-sm font-light text-center'>{description}</p>
         </span>
     </div>
   )

@@ -11,7 +11,7 @@ export default function Card({image, title, description, id}) {
             src={image}
             alt='service photo'
             fill
-            objectFit='cover'
+            className='object-cover'
             ></Image>
         </div>
             <div className="p-4 flex flex-col relative">
