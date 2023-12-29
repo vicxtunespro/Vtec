@@ -12,7 +12,8 @@ import 'swiper/css';
 export default function CardGroup() {
   return (
     <div className="card-display">
-      <p className="text-2xl font-bold mt-6 mb-6 w-full border-b border-black ">Services</p>
+      <p className="text-2xl font-bold mt-6 mb-6 w-full marker:after:content-[''] after:w-20 after:h-[2px] after:bg-black after:block
+      ">Services</p>
       <Swiper 
       watchSlidesProgress={true} 
       slidesPerView={4}
