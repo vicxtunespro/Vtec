@@ -5,15 +5,7 @@
     .heading{
         background-color: white;
         letter-spacing: 2px;
-
-        &:after{
-            content: '';
-            background: black;
-            display: block;
-            height: 3px;
-            width: 150px;
-            margin: 10px auto;
-        }
+        text-align: center;
     }
     
 
