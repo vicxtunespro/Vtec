@@ -9,7 +9,7 @@ import ContentCard from './components/caption'
 
 export default function Home() {
   return (
-      <div className="wrapper">
+      <div className="wrapper h-screen w-screen bg-slate-50 dark:bg-slate-900">
         <Hero/>
         <main className="min-h-screen px-8 md:px-16 lg:32 relative">
           <ContentCard/>
