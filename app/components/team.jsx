@@ -12,7 +12,7 @@ import TeamMember from './teamCard';
 function Team(){
     return(
         <div className='team mt-32'>
-            <h1 className="heading  text-center justify-center after:content-[''] after:w-20 after:h-[2px] afte:text-center after:bg-black after:block">OUR TEAM</h1>
+            <h1 className="heading  text-center after:content-[''] after:w-20 after:h-[2px] after:bg-black after:block">OUR TEAM</h1>
             <Swiper watchSlidesProgress={true}
             breakpoints={{
                 0: {
