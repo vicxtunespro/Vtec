@@ -5,7 +5,7 @@ function TeamMember({name, title, description, image}) {
   return (
     <div className='team-member mt-3'>
         <span className="team-member-photo">
-            <img src='/ceo.jpg' alt='Team member'></img>
+            <img src={image} alt='Team member'></img>
             <span className="media-handles">
             <FaFacebook />
             <FaLinkedin />

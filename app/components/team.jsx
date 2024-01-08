@@ -9,7 +9,7 @@ import Member from './teamCard';
 import TeamMember from './teamCard';
 
 
-function Team(){
+function Team({imageUrl}){
     return(
         <div className='team mt-10'>
             <h1 className="heading after:content-[''] after:w-20 after:h-[2px] after:bg-black after:block">OUR TEAM</h1>
@@ -39,6 +39,7 @@ function Team(){
                             name={member.name}
                             title={member.title}
                             description={member.description}
+                            image={member.image}
                             />
                         </SwiperSlide>
                     ))
