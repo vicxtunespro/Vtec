@@ -1,19 +1,11 @@
-import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
 
 export default function Hero() {
   return (
-    <div className='w-screen hero flex flex-wrap mt-[3rem] md:mt-0  p-2  lg:pl-40'>
-        <div className="flex flex-col justify-center items-center gap-2 text-center w-screen mt-10 md:mt-0 sm:w-1/2">
-          <p className="text-white text-2xl font-black lg:text-4xl ">Lets build the future together!</p>
-          <p className="text-white text-sm">Hurry and join our community now!</p>
-          <Link href="/" className="py-2 px-3 w-40 text-center text-white bg-orange-300 rounded">Join now</Link>
-        </div>
-        <div className="flex flex-col justify-center relative h-fill w-fill sm:w-1/2">
-          <Image src="/hero1.png" width={600} height={600} alt="hero photo">
-          </Image>
-        </div>
+    <div className='w-screen h-1/2 pl-10 pb-10 flex flex-col justify-end gap-2'>
+        <h1 className='text-3xl font-bold'>Join us in making <br></br>a difference</h1>
+        <p>Every youth out there has the ability to set an opportunity</p>
+        <button className='py-3 x-5 w-32 bg-orange-600 rounded'>Join now</button>
     </div>
   )
 }
