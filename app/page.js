@@ -15,7 +15,6 @@ export default function Home() {
         <main className="min-h-screen px-8 md:px-16 lg:32 relative">
           <Mission/>
           <ContentCard/>
-          <ContentCard/>
           <CardGroup/>
           <Team/>
        </main>
